@@ -8,8 +8,9 @@
   </head>
 
   <script>
-    function timer(time) {
+    var time = prompt("Please enter your commute time (in seconds)", 0);
 
+    function timer() {
       var myInterval = setInterval(() => {
         var timeText = document.querySelector('#timer');
         timeText.setAttribute('text', 'value', time.toString());
@@ -49,6 +50,7 @@
               value: hihi">
       </a-entity>
 
+      <a-box id="box" position="12 0.5 0" depth="5" width="7" height="45" color="#3b4030"></a-box>
       <a-box id="box" position="12 0.5 -13" depth="5" width="7" height="25" color="#596b5e"></a-box>
       <a-box id="box" position="12 0.5 -13" depth="5" width="7" height="25" color="#596b5e"></a-box>
       <a-box id="box" position="12 0.5 -20" depth="6" width="6" height="30" color="#4d333a"></a-box>
@@ -58,8 +60,10 @@
       <a-box id="box" position="12 0.5 -68" depth="10" width="8" height="60" color="#202033"></a-box>
       <a-box id="box" position="12 0.5 -102" depth="8" width="6" height="66" color="#0e1821"></a-box>
       <a-box id="box" position="12 0.5 -168" depth="5" width="6" height="55" color="#272829"></a-box>
+
+      <a-box id="box" position="-12 0.5 2" depth="6" width="8" height="20" color="#445057"></a-box>
       <a-box id="box" position="-12 0.5 -20" depth="6" width="6" height="30" color="#454a3a"></a-box>
-      <a-box id="box" position="-12 0.5 -10" depth="6" width="6" height="20" color="#3f495e"></a-box>
+      <a-box id="box" position="-12 0.5 -9" depth="6" width="6" height="50" color="#3f495e"></a-box>
       <a-box id="box" position="-11 0.5 -30" depth="4" width="3" height="40" color="#74786b"></a-box>
       <a-box id="box" position="-12 0.5 -52" depth="6" width="6" height="34" color="#6a6d75"></a-box>
       <a-box id="box" position="-12 0.5 -68" depth="10" width="8" height="60" color="#4d333a"></a-box>
