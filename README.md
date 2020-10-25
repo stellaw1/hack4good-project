@@ -10,6 +10,13 @@ This [article](https://www.linkedin.com/feed/news/the-rise-of-the-fake-commute-4
 
 Our project aims to tackle this issue by replicating the commute of driving to work/ being stuck in rush hour in VR.
 
+*Built using A Frame*
+
+
+### Try it out
+Try out our project on [Glitch](https://glitch.com/~stellaw1-hack4good-project)
+
+
 
 ### Installation
 
